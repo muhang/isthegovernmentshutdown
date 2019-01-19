@@ -42,11 +42,22 @@ h1.cover-heading, h2, h3 {
   margin-bottom: 0;
 }
 
-@media max-width 1024px {
+#clock {
+    transform: translate(-25%, -70%) scale(0.5);
+    -moz-transform: translate(-25%, -70%) scale(0.5);
+    width: 200%;
+    position: absolute;
+}
+
+span.flip-clock-label {
+        color: #ffffff !important;
+}
+
+@media screen and (min-width: 1024px) {
         #clock {
-            transform: translate(-25%, -70%) scale(0.5);
-            -moz-transform: translate(-25%, -70%) scale(0.5);
-            width: 200%;
-            position: absolute;
+                transform: none;
+                -moz-transform: none;
+                width: 200%;
+                position: relative;
         }
 }
