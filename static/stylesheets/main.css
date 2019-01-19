@@ -41,7 +41,7 @@ p, li, a {
   text-align: center;
 }
 
-h1.cover-heading, h3 {
+h1.cover-heading, h2, h3 {
         margin-bottom: 3rem !important; 
 }
 
