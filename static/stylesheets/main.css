@@ -1,0 +1,43 @@
+/*-----------------------------------------------------
+AUTHOR: Muhan Guclu
+WEBSITE: http://isthegovernmentshutdown.com
+
+Primary Stylesheet
+-----------------------------------------------------*/
+
+/*-----------------------------------------------------
+GENERAL STYLES
+-----------------------------------------------------*/
+
+body {
+  overflow-x: hidden;
+  background: #f4f5f4;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	margin: 0;
+	line-height: 140%;
+}
+
+p, li, a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #f4f5f4;
+}
+
+#wrapper {
+  padding-left: 20vw;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.center-content-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
