@@ -34,17 +34,19 @@ p, li, a {
   transition: all 0.5s ease;
 }
 
-.center-content-wrapper {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  text-align: center;
-}
-
 h1.cover-heading, h2, h3 {
         margin-bottom: 3rem !important; 
 }
 
 .mastfoot .inner p {
   margin-bottom: 0;
+}
+
+@media max-width 1024px {
+        #clock {
+            transform: translate(-25%, -70%) scale(0.5);
+            -moz-transform: translate(-25%, -70%) scale(0.5);
+            width: 200%;
+            position: absolute;
+        }
 }
